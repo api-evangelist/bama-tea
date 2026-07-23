@@ -1,8 +1,25 @@
 aid: bama-tea
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/bama-tea.png
 name: BAMA TEA
-description: 'BAMA TEA is a company surfaced as a portfolio company of idg-capital and added to the API
-  Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: 'BAMA TEA (八马茶业), a brand of Fujian Bama Tea Industry Co., Ltd., is a large-scale Chinese
+  tea enterprise founded in 1997 and headquartered in Anxi County, Quanzhou, Fujian Province. It integrates
+  tea plantation cultivation, production and processing, branded retail-chain distribution, and export,
+  and is best known for Tieguanyin oolong. The company operates a nationwide network of branded retail
+  stores across China and sells oolong, black, green, white, and dark teas. It is a publicly listed company
+  and a portfolio investment of IDG Capital. Added to the API Evangelist network as a consumer-sector lead:
+  BAMA TEA publishes a consumer e-commerce website but no public developer API, SDK, or documentation surface,
+  so the API-artifact enrichment recipes do not apply.'
 url: https://raw.githubusercontent.com/api-evangelist/bama-tea/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +29,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Tea
+- Retail
+- Food and Beverage
+- China
+- Ecommerce
 apis: []
+common:
+- type: Website
+  url: https://www.bamatea.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
